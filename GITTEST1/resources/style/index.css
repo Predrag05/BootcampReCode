@@ -23,24 +23,28 @@ ul > li {
     margin-left: 59px;
 }
 main{
-    height: 60vh;
+    height: 320vh;
     background-color: aliceblue;
 }
 footer{
     text-align: center;
     
-    height: 20vh;
+    height: 200vh;
     background-color: blueviolet;
 
 }
 p{
     text-align: center;
-    font-size: 50px;
+    font-size: 500px;
     padding: 23px;
 }
 footer > p{
 
-    color: white;
+    color: black;
     padding-top: 50px;
 
+}
+img{
+    position: absolute;
+    height: 60vh;
 }
