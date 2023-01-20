@@ -1,0 +1,12 @@
+## HTML & CSS
+
+1. https://www.youtube.com/watch?v=5bMdjkfvONE
+
+## Git & GitHub
+
+1. https://www.youtube.com/watch?v=SWYqp7iY_Tc&t
+
+## JavaScript
+
+1. [Књига - EloquentJS](https://eloquentjavascript.net/)
+2. []
