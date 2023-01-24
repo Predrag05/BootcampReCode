@@ -14,3 +14,4 @@ switch(N % 3){
         console.log("Није добар унос")
         break
 }
+
