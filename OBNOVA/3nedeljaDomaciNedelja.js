@@ -17,9 +17,12 @@ function ternarniDivisibleBy5(arr){
         let j = arr[i]
         j % 5 === 0 ?
         console.log(j)
+        :
+        console.log(i,"Nije deljiv")
     }
 }
 
+ternarniDivisibleBy5(niz)
 
 
 // niz.forEach(el =>{
@@ -55,9 +58,20 @@ function lifeSupply(numPerMonth,age){
 }
 
 
-
 lifeSupply(10,26) // Враћа 8880
 console.log(lifeSupply(10,26)) // Исписује 8880
+
+
+function suma(arr){
+    let sum = 0
+    for(let i = 0; i < arr.length; i++){
+        sum += arr[i]
+    }
+    return sum
+}
+
+console.log(suma(niz))
+
 
 
 console.log("БРАВО ПРЕДРАЖЕ ЗА ОВО ВЕЖБАЊЕ")
