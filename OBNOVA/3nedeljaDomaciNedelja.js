@@ -12,6 +12,14 @@ function printDivisibleBy5(arr){
 
 printDivisibleBy5(niz)
 
+function ternarniDivisibleBy5(arr){
+    for(let i = 0; i < arr.lenght; i++){
+        let j = arr[i]
+        j % 5 === 0 ?
+        console.log(j)
+    }
+}
+
 
 
 // niz.forEach(el =>{
