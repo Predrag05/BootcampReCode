@@ -38,12 +38,13 @@ console.log(lifePizza(20,23))
 function lifeSupply(numPerMonth,age){
     let pizzaPerYear = 12 * numPerMonth
     let lifetime100 = 0
-    for(let i = age; i < 100; i++){
+
+    for(age; age < 100; age++){
         lifetime100 += pizzaPerYear
     }
+    
     return lifetime100
 }
-
 
 
 
