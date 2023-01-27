@@ -42,7 +42,7 @@ function lifeSupply(numPerMonth,age){
     for(age; age < 100; age++){
         lifetime100 += pizzaPerYear
     }
-    
+
     return lifetime100
 }
 
@@ -50,3 +50,6 @@ function lifeSupply(numPerMonth,age){
 
 lifeSupply(10,26) // Враћа 8880
 console.log(lifeSupply(10,26)) // Исписује 8880
+
+
+console.log("БРАВО ПРЕДРАЖЕ ЗА ОВО ВЕЖБАЊЕ")
