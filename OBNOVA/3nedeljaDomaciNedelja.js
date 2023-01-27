@@ -33,3 +33,19 @@ function lifePizza(picaMesecno,brojGodina){
 }
 
 console.log(lifePizza(20,23))
+
+
+function lifeSupply(numPerMonth,age){
+    let pizzaPerYear = 12 * numPerMonth
+    let lifetime100 = 0
+    for(let i = age; i < 100; i++){
+        lifetime100 += pizzaPerYear
+    }
+    return lifetime100
+}
+
+
+
+
+lifeSupply(10,26) // Враћа 8880
+console.log(lifeSupply(10,26)) // Исписује 8880
